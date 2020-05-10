@@ -1,2 +1,7 @@
 
 profiles: develop
+
+feign:
+  server:
+    pt: frame-server
+    basic: bgt-basic-server
