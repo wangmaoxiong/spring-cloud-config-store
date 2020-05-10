@@ -1,0 +1,8 @@
+
+profiles: chang-sha
+
+feign:
+  server:
+    pt: frame-server
+    basic: bgt-basic-server
+    element: chang-sha-element-server
