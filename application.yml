@@ -15,5 +15,5 @@ spring:
 
 feign:
   server:
-    pt: frame-server
-    basic: bgt-basic-server
+    pt: frame-server-test
+    basic: bgt-basic-server-test
