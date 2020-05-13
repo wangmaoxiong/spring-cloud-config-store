@@ -1,8 +1,22 @@
 
-profiles: chang-sha
+server:
+  port: 8085
+  
+---
+spring:
+  profiles: develop
 
+# 自定义属性值
 feign:
   server:
-    pt: frame-server
-    basic: bgt-basic-server
-    element: chang-sha-element-server
+    pt: chang-sha-frame-server
+    basic: chang-sha-bgt-basic-server
+---
+spring:
+  profiles: test
+
+# 自定义属性值
+feign:
+  server:
+    pt: chang-sha-frame-server-test
+    basic: chang-sha-bgt-basic-server-test
