@@ -1,5 +1,17 @@
 
-profiles: develop
+server:
+  port: 8080
+---
+spring:
+  profiles: develop
+
+feign:
+  server:
+    pt: frame-server
+    basic: bgt-basic-server
+---
+spring:
+  profiles: test
 
 feign:
   server:
