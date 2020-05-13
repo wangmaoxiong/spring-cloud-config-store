@@ -1,10 +1,12 @@
 
 server:
   port: 8080
+  
 ---
 spring:
   profiles: develop
 
+# 自定义属性值
 feign:
   server:
     pt: frame-server
@@ -13,6 +15,7 @@ feign:
 spring:
   profiles: test
 
+# 自定义属性值
 feign:
   server:
     pt: frame-server-test
