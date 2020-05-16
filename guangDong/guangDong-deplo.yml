@@ -1,9 +1,0 @@
-
-server:
-  port: 8085
-
-# 自定义属性值
-feign:
-  server:
-    pt: guang-dong-frame-server
-    basic: guang-dong-bgt-basic-server
