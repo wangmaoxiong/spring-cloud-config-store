@@ -1,9 +1,0 @@
-
-server:
-  port: 8085
-
-# 自定义属性值
-feign:
-  server:
-    pt: shen-zhen-frame-server
-    basic: shen-zhen-bgt-basic-server
