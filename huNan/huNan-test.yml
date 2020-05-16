@@ -1,0 +1,9 @@
+
+server:
+  port: 8085
+
+# 自定义属性值
+feign:
+  server:
+    pt: hu-nan-frame-server-test
+    basic: hu-nan-bgt-basic-server-test
