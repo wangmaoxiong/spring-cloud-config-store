@@ -20,4 +20,4 @@ feign:
   server:
     pt: chang-sha-frame-server-test
     basic: chang-sha-bgt-basic-server-test
-    app3: {cipher}fbe266c12859c78613ebfd72e52156d54d2b57c7a355a431e8028b07eee59c61
+    app3: '{cipher}fbe266c12859c78613ebfd72e52156d54d2b57c7a355a431e8028b07eee59c61'
